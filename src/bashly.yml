@@ -1,0 +1,22 @@
+---
+name: ramfolder
+help: Create a RAM disk and synchronize a folder into it.
+version: 0.1.0
+
+args:
+  - name: source
+    required: true
+    help: Source directory containing the files.
+
+  - name: target
+    required: true
+    help: Path where the RAM disk should be created.
+
+flags:
+  - long: --size
+    short: -s
+    help: Size of the RAM disk in gigabytes.
+    default: 10
+
+examples:
+  - ramfolder /var/www/magento2/ /mnt/ramdisk/
