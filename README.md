@@ -32,7 +32,7 @@ Examples:
 ````
 
 ## Building
-Requires (Bashly)[https://github.com/DannyBen/bashly] to build from source.
+Requires [Bashly](https://github.com/DannyBen/bashly) to build from source.
 
 * `bashly generate`
 
