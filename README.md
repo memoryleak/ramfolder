@@ -1,6 +1,10 @@
 # RAMFolder
 Create a mount point into memory via tmpfs and synchronize provided directory.
 
+## Requirements
+
+* [inotify-tools](https://github.com/inotify-tools/inotify-tools)
+
 ## Usage
 ````
 Usage:
